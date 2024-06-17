@@ -9,7 +9,6 @@ export default defineConfig({
 			title: 'Mythic Docs',
 			social: {
 				github: 'https://github.com/MythicApp/Mythic',
-				discord: 'https://discord.gg/GwHgX3QWK3'
 			},
 			sidebar: [
 				{
