@@ -1,0 +1,30 @@
+---
+title: Installing Mythic
+description: How-to on installing Mythic
+---
+# Video Guide
+###### This shows how to install and (the next part) setup Mythic.
+[![How to Install and Setup Mythic](http://img.youtube.com/vi/8OD3i1V2kIk/0.jpg)](http://www.youtube.com/watch?v=8OD3i1V2kIk "How to Install and Setup Mythic")
+---
+# Text Guide
+###### This is only the installation of Mythic
+To install Mythic, download it from the [Github.](https://github.com/MythicApp/Mythic/releases)
+Scroll down to assets and expand the menu
+
+Click on `Mythic.zip` and locate it in Finder
+
+Double click on it so it extracts the `Mythic.app` file from it.
+
+Drag that into the Applications folder
+
+Open the `Mythic.app` file from the Applications folder
+
+You will then be prompted that Apple couldn't verify whether Mythic was safe. To get past this, proceed to System Settings and on the sidebar, go to Privacy and Security.
+
+When there, scroll all the way down to where it says `"Mythic.app" was blocked from use because it is not from an identified developer.` and to the side of that, press Open Anyway. 
+
+Press Open Anyway again.
+
+The reason this appears is because Mythic isn't notarized yet, this has already been paid, just not implemented quite yet.
+
+And now, Mythic should open and needed to be set up.
