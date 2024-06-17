@@ -6,9 +6,15 @@ export default defineConfig({
 	site: 'https://docs.getmythic.app',
 	integrations: [
 		starlight({
+<<<<<<< Updated upstream
 			title: 'My Docs',
 			social: {
 				github: 'https://github.com/withastro/starlight',
+=======
+			title: 'Mythic Docs',
+			social: {
+				github: 'https://github.com/MythicApp/Mythic',
+>>>>>>> Stashed changes
 			},
 			sidebar: [
 				{
@@ -19,8 +25,13 @@ export default defineConfig({
 					],
 				},
 				{
+<<<<<<< Updated upstream
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
+=======
+					label: 'idk yet',
+					autogenerate: { directory: 'idk yet' },
+>>>>>>> Stashed changes
 				},
 			],
 		}),
