@@ -6,21 +6,24 @@ export default defineConfig({
 	site: 'https://docs.getmythic.app',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Mythic Docs',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/MythicApp/Mythic',
+				discord: 'https://discord.gg/GwHgX3QWK3'
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Getting Started',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Installation', link: '/guides/installation/' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Advanced Options',
+					items: [
+						{ label: 'Creating a bottle', link: '/advoptions/bottlecreate/'},
+					]
 				},
 			],
 		}),
