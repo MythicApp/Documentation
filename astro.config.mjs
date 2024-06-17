@@ -6,7 +6,7 @@ export default defineConfig({
 	site: 'https://docs.getmythic.app',
 	integrations: [
 		starlight({
-			title: 'Mythic Documentation',
+			title: 'Mythic Docs',
 			social: {
 				github: 'https://github.com/MythicApp/Mythic',
 			},
