@@ -1,7 +1,6 @@
 ---
 title: No or Limited Internet Connection
 ---
-# No Video Guide
 # Text Guide
 ## No Internet
 # <img alt="nointernet" src="../src/assets/mnointernet.png">
