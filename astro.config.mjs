@@ -36,7 +36,7 @@ export default defineConfig({
         link: '/guides/gameimport'
       }]
     }, {
-      label: 'Advanced Options',
+      label: 'Advanced Features',
       items: [{
         label: 'Creating a bottle',
         link: '/advoptions/bottlecreate/'
