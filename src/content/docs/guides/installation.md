@@ -4,7 +4,7 @@ description: How-to on installing Mythic
 ---
 # Video Guide
 ###### This shows how to install and (the next part) setup Mythic.
-[![How to Install and Setup Mythic](http://img.youtube.com/vi/8OD3i1V2kIk/0.jpg)](http://www.youtube.com/watch?v=8OD3i1V2kIk "How to Install and Setup Mythic")
+[![How to Install and Setup Mythic](https://i.imgur.com/JNuGgyA.png)](http://www.youtube.com/watch?v=8OD3i1V2kIk "How to Install and Setup Mythic")
 ---
 # Text Guide
 ###### This is only the installation of Mythic
