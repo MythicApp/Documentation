@@ -5,12 +5,12 @@ title: Navigating Mythic
 ---
 # Text Guide
 ## Home
-# <img alt="Homepage" src="../src/assets/mhome.png">
+# <img alt="Homepage" src="https://i.imgur.com/ly1jBRw.png">
 Home appears when Mythic is launched.
 
 It shows you your favorite games and all of your bottles. It also shows you your most recently played game.
 ## Library
-# <img alt="Library" src="../src/assets/mlibrary.png">
+# <img alt="Library" src="https://i.imgur.com/4cbxKHM.jpeg">
 The library shows all of your Epic Games games, if you decided to sign in, but it also shows your imported games if you've done that.
 ## Game Installation
 # <img alt="gameinstallmenu" src="https://i.imgur.com/TA5vYS5.png">
@@ -25,7 +25,7 @@ The next option is `Choose the game's native platform:` and Mythic is a game lau
 
 ## Game Importing
 ### Epic Games Import
-# <img alt="gameimportmenu" src="../src/assets/mepicimport.png">
+# <img alt="gameimportmenu" src="https://i.imgur.com/ipaPoiE.png">
 This is meant for Epic Games games that are already installed with apps such as Heroic Launcher or Whisky. This menu consists of many options.
 
 `Select a game`, this is selecting the game that you are importing.
@@ -39,7 +39,7 @@ This is meant for Epic Games games that are already installed with apps such as 
 `Verify the game's integrity`, this is to make sure your imported game folder has all of the correct files to make sure the game isn't broken or missing dependencies.
 
 ### Local Game Import
-# <img alt="localimport" src="../src/assets/mlocalimport.png">
+# <img alt="localimport" src="https://i.imgur.com/aQt3fB0.png">
 This is meant for all other games that aren't from Epic Games, such as DRM-free platforms, other game launchers, and ~~pirated~~ games.
 
 `What should we call this game?`, the name Mythic will use for this game.
@@ -51,7 +51,7 @@ This is meant for all other games that aren't from Epic Games, such as DRM-free 
 `Enter thumbnail URL here... (optional)`, this is the cover art that will appear in your library and if this isn't filled it, it will use the icon of the imported game, most likely a folder icon.
 
 ## Game Settings
-# <img alt="gamesettings" src="../src/assets/mgameset.png">
+# <img alt="gamesettings" src="https://i.imgur.com/lOedzb1.png">
 To change certain aspects or to manage parts of your game.
 ##### Options
 `Thumbnail URL`, custom thumbnails for your games. Epic Games games already have a preset thumbnail.
@@ -75,14 +75,14 @@ To change certain aspects or to manage parts of your game.
 
 `Windows Version`, very important option you have which can change the compatibility of some games and can be changed with no limit and the only downside would be your game being incompatibile with the version.
 ## Store
-# <img alt="storefront" src="../src/assets/mstore.png">
+# <img alt="storefront" src="https://i.imgur.com/mPgQ6U5.png">
 The store, this is an embed of the Epic Games Store website where you can purchase games that are on the Epic Games Store and manage your account.
 ## Wine
-# <img alt="wine" src="../src/assets/mwine.png">
+# <img alt="wine" src="https://i.imgur.com/tqt2ods.png">
 The Wine menu shows all of your bottles and each bottle has its own settings and the option to be deleted.
 
 ## Bottle Settings
-# <img alt="bottlesettings" src="../src/assets/mbottlesettings.png">
+# <img alt="bottlesettings" src="https://i.imgur.com/RZH5XdB.png">
 The bottle settings shows the settings for your bottle, obviously. In this menu you can toggle and change many settings about your bottle.
 
 You can turn on the `Performance HUD` which gives you information about how your game is running such as FPS and graphs.
@@ -104,7 +104,7 @@ The `Launch Configurator` button opens up a window to change many more options a
 The `Launch Registry Editor` button allows you to change keys on your Windows bottle. Do NOT mess with anything in here unless you absolutely know what you're doing.
 
 ## Settings
-# <img alt="settings" src="../src/assets/msettings.png">
+# <img alt="settings" src="https://i.imgur.com/smFm7wO.png">
 #### Mythic
 `Display Mythic activity status on Discord`, this toggles Mythic activity status displaying on your Discord profile.
 
@@ -130,9 +130,9 @@ The `Launch Registry Editor` button allows you to change keys on your Windows bo
 
 ## Support
 This displays 2 ways you can get support with Mythic, Discord and Patreon.
-# <img alt="support" src="../src/assets/msupport.png">
+# <img alt="support" src="https://i.imgur.com/UWWqmEZ.png">
 
 ## Accounts
 This shows the Epic Games and Steam (when released) accounts connected to Mythic
-# <img alt="accounts" src="../src/assets/maccounts.png">
+# <img alt="accounts" src="https://i.imgur.com/66nEmIG.png">
 It shows the account name connected to the Epic and/or Steam account and then on the right, you can unlink the account from Mythic.
