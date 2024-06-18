@@ -21,7 +21,7 @@ When finished checking over this menu, press the `Done` button for Mythic to add
 
 ### Local Game Import
 If you have another game, that isn't an Epic Games game, installed to your device such as a DRM-free, other launcher game, or a ~~pirated~~ game on your device, you can import it here.
-# <img alt="localimport" src="../src/assets/mlocalimport.png">
+# <img alt="localimport" src="https://i.imgur.com/gPs95ZL.png">
 On this menu, it is alike the Epic Games import window.
 
 `What should we call this game?`, this is what Mythic will refer to the game as.
