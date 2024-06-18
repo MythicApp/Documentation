@@ -53,18 +53,18 @@ This is meant for all other games that aren't from Epic Games, such as DRM-free 
 ## Game Settings
 # <img alt="gamesettings" src="https://i.imgur.com/lOedzb1.png">
 To change certain aspects or to manage parts of your game.
-##### Options
+### Options
 `Thumbnail URL`, custom thumbnails for your games. Epic Games games already have a preset thumbnail.
 
 `Launch Arguements`, to make games run a certain mod, mode, or change more aspects about your game.
 
 `Verify File Integrity`, make sure your files are all there and aren't deleted, renamed, or tampered with.
-##### File
+### File
 `Move "Your Game Here"`, move where the game is located on your Mac.
 
 `Show in Finder`, opens a Finder window of your game's directory.
 
-##### Engine (Wine)
+### Engine (Wine)
 `Current Bottle`, change what bottle the selected game will open in.
 
 `Performance HUD`, gives you information about how your game is running such as FPS and graphs.
@@ -105,7 +105,7 @@ The `Launch Registry Editor` button allows you to change keys on your Windows bo
 
 ## Settings
 # <img alt="settings" src="https://i.imgur.com/smFm7wO.png">
-#### Mythic
+### Mythic
 `Display Mythic activity status on Discord`, this toggles Mythic activity status displaying on your Discord profile.
 
 `Minimize to menu bar on game launch`, this minimizes the Mythic window to the dock when a game is launched.
@@ -118,14 +118,14 @@ The `Launch Registry Editor` button allows you to change keys on your Windows bo
 
 `Reset settings to default`, this resets the settings on this screen to the defaults.
 
-#### Wine/Mythic Engine
+### Wine/Mythic Engine
 `Force Quit All Windows Applications`, this forcefully quits all Windows apps and games open.
 
 `Purge Shader Cache`, this can free up space on your device and help with game issues such as freezes, slow loads, and connectivity problems.
 
 `Remove Mythic Engine`, removes the Mythic Engine from your device.
 
-#### Epic
+### Epic
 `Clean Up Miscellaneous Caches`, this cleans up and deletes caches made by Epic Games.
 
 ## Support
