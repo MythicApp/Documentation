@@ -1,7 +1,6 @@
 ---
 title: No or Limited Internet Connection
 ---
-# Text Guide
 ## No Internet
 # <img alt="nointernet" src="../src/assets/mnointernet.png">
 This appears when your Mac has no connection to the internet. 
