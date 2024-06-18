@@ -18,7 +18,9 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Installation', link: '/guides/installation/' },
 						{ label: 'Setup', link: '/guides/setup'},
-						{ label: 'Navigating the Mythic UI', link: '/guides/nav'}
+						{ label: 'Navigating the Mythic UI', link: '/guides/nav'},
+						{ label: 'Installing Games', link: '/guides/gameinstall'},
+						{ label: 'Importing Games', link: '/guides/gameimport'},
 					],
 				},
 				{
