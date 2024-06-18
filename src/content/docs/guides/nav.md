@@ -2,7 +2,6 @@
 title: Navigating Mythic
 ---
 #### No Video Guide
----
 # Text Guide
 ## Home
 # <img alt="Homepage" src="https://i.imgur.com/ly1jBRw.png">
