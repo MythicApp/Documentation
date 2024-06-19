@@ -3,6 +3,7 @@ import starlight from '@astrojs/starlight';
 import tailwind from '@astrojs/tailwind'; 
 
 export default defineConfig({
+  favicon: '/favicon.ico',
   site: 'https://docs.getmythic.app/guides/installation',
   integrations: [starlight({
     title: 'Mythic Docs',
