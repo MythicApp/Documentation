@@ -69,6 +69,10 @@ export default defineConfig({
             link: '/othertut/launchers'
           },
           {
+            label: 'Scale Up Window Sizes',
+            link: '/othertut/dpiscale'
+          },
+          { 
             label: 'Microsoft Runtime Missing',
             link: '/othertut/msruntime'
           }
