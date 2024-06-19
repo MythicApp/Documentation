@@ -1,12 +1,9 @@
 ---
 title: Importing Games
 ---
-# Video Guide
-###### No video guide for this yet.
-# Text Guide
-### Epic Games Import
+## Epic Games Import
 If you already have an Epic Games game downloaded (Windows or Mac) to your system, use this menu.
-# <img alt="epicimport" src="../src/assets/mepicimport.png">
+# <img alt="epicimport" src="ttps://i.imgur.com/ipaPoiE.png">
 `Select a game:`, the game has to be inside of your Epic Games library, so, select the game you are importing.
 
 `Choose the game's native platform:`, Mythic is not only a game launcher for Windows game but also a game launcher for Mac games as well, so if the game has a native port for Mac, you can select that here but you can also select Windows.
@@ -19,7 +16,7 @@ If you already have an Epic Games game downloaded (Windows or Mac) to your syste
 
 When finished checking over this menu, press the `Done` button for Mythic to add this to your library and it can now be launched and played, using Mythic.
 
-### Local Game Import
+## Local Game Import
 If you have another game, that isn't an Epic Games game, installed to your device such as a DRM-free, other launcher game, or a ~~pirated~~ game on your device, you can import it here.
 # <img alt="localimport" src="https://i.imgur.com/gPs95ZL.png">
 On this menu, it is alike the Epic Games import window.
