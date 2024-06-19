@@ -1,4 +1,4 @@
-# Mythic
+# Mythic Documentation
 
 Need help with Mythic? Use the [docs](https://docs.getmythic.app)!
 
