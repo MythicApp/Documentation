@@ -50,7 +50,7 @@ After this, you can install and play games as if they were running natively. Alt
 ## Importing Installed Steam games into Mythic
 
 To import **each** installed game from Steam into Mythic, you will, once again, navigate to the Local import menu.
-# <img alt="localimp" src="ttps://i.imgur.com/aQt3fB0.png">
+# <img alt="localimp" src="https://i.imgur.com/aQt3fB0.png">
 You will enter the game name, for the example of this, I am going to use [Slapshot Rebound](https://store.steampowered.com/app/1173370/Slapshot_Rebound/).
 
 `Choose the game's native platform`, choose Windows for this.
