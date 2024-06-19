@@ -2,6 +2,7 @@
 node_modules
 
 # generated content
+/.map.ts
 .contentlayer
 
 # test & build

@@ -4,8 +4,6 @@ const withMDX = createMDX();
 
 /** @type {import('next').NextConfig} */
 const config = {
-  basePath: "/documentation",
-  output: "export",
   reactStrictMode: true,
   async redirects() {
     return [
