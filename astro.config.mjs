@@ -40,5 +40,5 @@ export default defineConfig({
         link: '/advoptions/bottlecreate/'
       }]
     }]
-  }), sentry(), spotlightjs(), tailwind()]
+  }), tailwind()]
 });
