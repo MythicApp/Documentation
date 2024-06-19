@@ -1,7 +1,19 @@
 ---
 title: Creating a bottle
 ---
-### Video Guide
----
-### Text Guide
-The documentation is a ***work in progress***
+# Locating the correct screen
+# <img alt="wine" src="https://i.imgur.com/tqt2ods.png">
+This is the screen you will need to navigate to.
+
+To create the bottle, press the '+' icon in the top right next to the folder icon.
+
+Once you press that, you will have two options to change (if you want to.)
+
+# <img alt="create a bottle" src="https://i.imgur.com/tamDv5B.png">
+`Choose a name for your bottle:`, this will be the name of your bottle and how Mythic wil refer to it as.
+
+`Where do you want the bottle's path to be located?`, this is where all of the bottles files will be located on your Mac.
+
+Once you are done configurating your bottle, press the `Done` button in the bottom right of the pop-up menu.
+
+You can now see your bottle inside of the Wine/Bottles menu, if you can't see it immediately after leaving the `Create a bottle` menu, switch to another menu on the sidebar and go back to the Wine/Bottles menu and it will appear.
