@@ -1,4 +1,18 @@
 ---
-title: Make Windows scaled up
+title: Scale Up Window Sizes
 ---
-# need to work on this
+###### By default, apps such as apps that are imported, Windows Explorer, Registry Editor and more are small and hard to read.
+
+## Locating the Bottle We’re Changing
+# <img alt="bottles" src="https://i.imgur.com/tqt2ods.png">
+Navigate to the `Wine` section on the sidebar on the left and pick the bottle you want to change the scaling of.
+
+Once you picked the bottle you want to change the settings of, press the gear icon to the right of the name and location of the bottle.
+# <img alt="bsettings" src="https://i.imgur.com/RZH5XdB.png">
+At the bottom of the menu, there is a button that says `Launch Configurator` and you need to press it.
+
+A window will then open up and at the top with the six tabs, look for `Graphics`, click on that.
+
+When you open up the `Graphics` menu, at the bottom there will be a text box that says `96` inside of it, click on it and erase the `96` in the box and change it to **`240`** and then at the bottom press `Apply` then `Ok`.
+
+All windows opened using Mythic will now be scaled appropriately, if the windows are too big or too small, change the number up or down according to what works for you.
