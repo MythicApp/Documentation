@@ -1,8 +1,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import tailwind from '@astrojs/tailwind';  // Add this import
 
-
-// https://astro.build/config
 export default defineConfig({
   site: 'https://docs.getmythic.app/guides/installation',
   integrations: [starlight({
@@ -15,7 +14,6 @@ export default defineConfig({
     sidebar: [{
       label: 'Getting Started',
       items: [
-      // Each item here is one entry in the navigation menu.
       {
         label: 'Installation',
         link: '/guides/installation/'
@@ -39,5 +37,5 @@ export default defineConfig({
         link: '/advoptions/bottlecreate/'
       }]
     }]
-  }), tailwind()]
+  }), tailwind()]  // Ensure this is correctly placed
 });
