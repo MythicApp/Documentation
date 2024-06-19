@@ -6,6 +6,7 @@ export default defineConfig({
   favicon: '/favicon.ico',
   site: 'https://docs.getmythic.app/guides/installation',
   integrations: [starlight({
+    favicon: '/favicon.ico',
     title: 'Mythic Docs',
     social: {
       github: 'https://github.com/MythicApp/Mythic',
