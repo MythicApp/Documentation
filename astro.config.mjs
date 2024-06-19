@@ -58,6 +58,19 @@ export default defineConfig({
             link: '/troubleshoot/uninstall'
           }
         ]
+      },
+      {
+        label: 'Other Tutorials',
+        items: [
+          {
+            label: 'Installing Game Launchers',
+            link: '/othertut/launchers'
+          },
+          {
+            label: 'Microsoft Runtime Missing',
+            link: '/othertut/msruntime'
+          }
+        ]
       }
     ]
   }), tailwind()]
