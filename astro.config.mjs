@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import tailwind from '@astrojs/tailwind';
+import tailwind from '@astrojs/tailwind'; 
 
 export default defineConfig({
   site: 'https://docs.getmythic.app/guides/installation',
@@ -11,31 +11,54 @@ export default defineConfig({
       discord: 'https://discord.gg/GwHgX3QWK3',
       'x.com': 'https://x.com/mythicapp'
     },
-    sidebar: [{
-      label: 'Getting Started',
-      items: [
+    sidebar: [
       {
-        label: 'Installation',
-        link: '/guides/installation/'
-      }, {
-        label: 'Setup',
-        link: '/guides/setup'
-      }, {
-        label: 'Navigating the Mythic UI',
-        link: '/guides/nav'
-      }, {
-        label: 'Installing Games',
-        link: '/guides/gameinstall'
-      }, {
-        label: 'Importing Games',
-        link: '/guides/gameimport'
-      }]
-    }, {
-      label: 'Advanced Features',
-      items: [{
-        label: 'Creating a bottle',
-        link: '/advoptions/bottlecreate/'
-      }]
-    }]
+        label: 'Getting Started',
+        items: [
+          {
+            label: 'Installation',
+            link: '/guides/installation/'
+          },
+          {
+            label: 'Setup',
+            link: '/guides/setup'
+          },
+          {
+            label: 'Navigating the Mythic UI',
+            link: '/guides/nav'
+          },
+          {
+            label: 'Installing Games',
+            link: '/guides/gameinstall'
+          },
+          {
+            label: 'Importing Games',
+            link: '/guides/gameimport'
+          }
+        ]
+      },
+      {
+        label: 'Advanced Features',
+        items: [
+          {
+            label: 'Creating a bottle',
+            link: '/advoptions/bottlecreate/'
+          }
+        ]
+      },
+      {
+        label: 'Troubleshooting Issues',
+        items: [
+          {
+            label: 'Internet Issues',
+            link: '/troubleshoot/internet'
+          },
+          {
+            label: 'Uninstalling and Reinstalling',
+            link: '/troubleshoot/uninstall'
+          }
+        ]
+      }
+    ]
   }), tailwind()]
 });
