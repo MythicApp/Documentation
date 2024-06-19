@@ -10,6 +10,10 @@ const inter = Inter({
 export default function Layout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={inter.className} suppressHydrationWarning>
+      <head>
+        <link rel='icon' href='/favicon.png' />
+        <title>Mythic Documentation</title>
+      </head>
       <body>
         <RootProvider>{children}</RootProvider>
       </body>
