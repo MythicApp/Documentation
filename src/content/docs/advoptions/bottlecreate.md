@@ -1,6 +1,7 @@
 ---
 title: Creating a bottle
 ---
+###### Creating a bottle is recommended when having multiple apps installed but you would have another bottle so their files don't conflict with each other.
 # Locating the correct screen
 # <img alt="wine" src="https://i.imgur.com/tqt2ods.png">
 This is the screen you will need to navigate to.
