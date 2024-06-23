@@ -2,4 +2,27 @@
 title: Missing C++ Runtimes
 ---
 # Video Guide
-<a href="https://www.youtube.com/watch?v=AEhH0Zj8Lyk"><img alt="How to import MS C++ Runtime into Mythic? YouTube" src="#" /></a>
+<iframe width="600" height="325" src="https://www.youtube.com/embed/AEhH0Zj8Lyk" title="How to fix &#39;Microsoft Visual C++ Runtime is missing&#39; error on games in Mythic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---
+# Text Guide
+<img src="https://cdn.discordapp.com/attachments/1242922485075415111/1242922485305839747/Snimka_obrazovky_2024-05-22_o_21.01.10.png?ex=66792084&is=6677cf04&hm=1781674f839d5be2f6954a17d1a8b5302f74b2b39f0d6824590b4fe9e50b6ea6&" />
+C++ Runtimes are important for some games because some of them depend on dependencies inside of the runtime, this error will appear when these dependencies aren't installed.
+## Installing the required .exe
+To install these runtimes, press this [link](https://aka.ms/vs/17/release/vc_redist.x64.exe), this will install the .exe we will import into Mythic.
+
+When the .exe is finished installing, open the Mythic library and press the `+` in the top right. Then press `Local` at the top.
+## Importing the .exe
+For the native platform, press `Windows` and then name it whatever and a thumbnail URL isn't needed.
+
+For the game location, press `Browse` and open the `vc_redist.x64.exe` and then press `Done` in the import menu.
+
+> To learn more about the import menu, go [here](https://docs.getmythic.app/docs/guides/__navigation#game-importing)
+
+Once the .exe is imported, find it in the library and open it.
+
+Once it is opened, follow the setup instructions and keep pressing `Next` and then at the end press `Finish`.
+
+Now you can run the games that require the dependencies. This will only have to be done once and will work for all games that need them. You will need to reinstall them if you [Full Uninstall](https://docs.getmythic.app/docs/troubleshoot/uninstall#full-uninstall).
+
+
+
