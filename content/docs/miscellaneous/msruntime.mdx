@@ -2,32 +2,62 @@
 title: Missing C++ Runtime
 ---
 
-import Image from 'next/image'
+import Image from "next/image";
 
 # Video Guide
-<div style={{ position: "relative", paddingBottom: "56.25%", height: "0", overflow: "hidden", maxWidth: "100%", height: "auto" }}>
-    <iframe style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }} src="https://www.youtube.com/embed/AEhH0Zj8Lyk" title="How to fix &#39;Microsoft Visual C++ Runtime is missing&#39; error on games in Mythic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<div
+  style={{
+    position: "relative",
+    paddingBottom: "56.25%",
+    height: "0",
+    overflow: "hidden",
+    maxWidth: "100%",
+    height: "auto",
+  }}
+>
+  <iframe
+    style={{
+      position: "absolute",
+      top: "0",
+      left: "0",
+      width: "100%",
+      height: "100%",
+    }}
+    src="https://www.youtube.com/embed/AEhH0Zj8Lyk"
+    title="How to fix &#39;Microsoft Visual C++ Runtime is missing&#39; error on games in Mythic"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
 </div>
 
 ---
+
 # Text Guide
+
 <Image
   alt="C++ Runtime Required for game to run"
-  src="/c++runtimerror.png" 
+  src="/c++runtimerror.png"
   width={450}
   height={450}
 />
-C++ Runtimes are important for some games because some of them need the dependencies that the runtime includes, this error will appear when these dependencies aren't installed.
+C++ Runtimes are important for some games because some of them need the dependencies
+that the runtime includes, this error will appear when these dependencies aren't
+installed.
 
 ## Installing the required .exe
+
 To install these runtimes, press this [link](https://aka.ms/vs/17/release/vc_redist.x64.exe), this will install the .exe we will import into Mythic.
 
 When the .exe is finished installing, open the Mythic library and press the `+` in the top right. Then press `Local` at the top.
 
 ## Importing the .exe
+
 <Image
   alt="Local import menu for launchers"
-  src="/mlocalimport.png" 
+  src="/mlocalimport.png"
   width={750}
   height={750}
 />

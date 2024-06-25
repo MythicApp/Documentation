@@ -2,37 +2,69 @@
 title: Installing Game Launchers
 ---
 
-import Image from 'next/image'
+import Image from "next/image";
 
 In this guide, I am using Steam as an example, the process may not be this simple for launchers such as EA or Ubisoft but should be about the same.
 
 # Video Guide
+
 The video does not include uninstalling the installer from Mythic, nor, adding installed Steam games into Mythic.
 
-<div style={{ position: "relative", paddingBottom: "56.25%", height: "0", overflow: "hidden", maxWidth: "100%", height: "auto" }}>
-    <iframe style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }} src="https://www.youtube.com/embed/XdX315djRps" title="How to Import Steam into Mythic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div
+  style={{
+    position: "relative",
+    paddingBottom: "56.25%",
+    height: "0",
+    overflow: "hidden",
+    maxWidth: "100%",
+    height: "auto",
+  }}
+>
+  <iframe
+    style={{
+      position: "absolute",
+      top: "0",
+      left: "0",
+      width: "100%",
+      height: "100%",
+    }}
+    src="https://www.youtube.com/embed/XdX315djRps"
+    title="How to Import Steam into Mythic"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
 </div>
 
 ---
+
 # Text Guide
+
 ## Installing the Steam Setup File
+
 To install the `SteamSetup.exe` file, click [here](https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe) and the official Steam installer will download for Windows to your device.
 
 ## Importing the Setup File Into Mythic
+
 Once the `SteamSetup.exe` file is installed, navigate to your Mythic library and press the `+` in the top right corner to start importing the setup file.
+
 <Image
   alt="Local import menu for launchers"
-  src="/mlocalimport.png" 
+  src="/mlocalimport.png"
   width={750}
   height={750}
 />
-Press `Local` and change the native platform to `Windows` and then make the name whatever you want to, for this, I am going to name it `Steam Installer`. Open the `SteamSetup.exe` file in the `Where is the game located?` section of the import menu.
+Press `Local` and change the native platform to `Windows` and then make the name
+whatever you want to, for this, I am going to name it `Steam Installer`. Open the
+`SteamSetup.exe` file in the `Where is the game located?` section of the import menu.
 
 Press `Done` when you are done filling out the menu.
 
 Locate whatever you named the installer as in your library.
 
 ## Install Steam
+
 Once located, press the play button on the cover for the installer.
 
 It may take a second but it will open up a window prompting you to install Steam. It will ask you your language and where you want to install it. Please use the default directory for the simplicity of following along.
@@ -40,19 +72,23 @@ It may take a second but it will open up a window prompting you to install Steam
 Wait until Steam is finished installing and when it is done a checkbox will be shown asking if you want to `Run Steam` when the installer is closed, uncheck this box and exit the installer.
 
 ## Uninstalling the Installer (Optional)
+
 If you no longer want the installer inside of your Mythic library, locate the installer inside of the library and press the trash bin icon with the `X` inside of it and press `Uninstall`. A restart of Mythic may need to happen for your changes to be in effect.
 
 ## Import Steam Directory
+
 Now we are going to import the actual Steam directory into Mythic so you can open Steam through Mythic.
 
 Navigate back to the Local import menu.
+
 <Image
   alt="Local import menu for launchers"
-  src="/mlocalimport.png" 
+  src="/mlocalimport.png"
   width={750}
   height={750}
 />
-Fill in the game name, I will name this `Steam` for this guide, and then choose the native platform, `Windows`.
+Fill in the game name, I will name this `Steam` for this guide, and then choose the
+native platform, `Windows`.
 
 I will then choose the directory Steam is located in, if you stuck with the default, press `Browse` and then press `Command + Shift + G` on your keyboard and type in the following path, `(Your User)/Library/Containers/Mythic/Bottles/(Your Bottle Name)/drive_c/Program Files (x86)/Steam` and then press `Open` and then once you're finished customizing the import attributes, press `Done`
 
@@ -61,6 +97,7 @@ I will then choose the directory Steam is located in, if you stuck with the defa
 **`Your Bottle Name` = the name of your bottle**
 
 ## Opening Steam
+
 Once you have done all of that, locate Steam in your Mythic library and press the play button for it to launch, you will need to sign in to your Steam account upon first launch.
 
 After this, you can install and play games as if they were running natively. Although, some games may be incompatible and you can check the [community-sourced spreadsheet](https://docs.google.com/spreadsheets/d/1W_1UexC1VOcbP2CHhoZBR5-8koH-ZPxJBDWntwH-tsc/edit#gid=0) and submit to it at anytime!
@@ -68,13 +105,15 @@ After this, you can install and play games as if they were running natively. Alt
 ## Importing Installed Steam Games Into Mythic
 
 To import **each** installed game from Steam into Mythic, you will, once again, navigate to the Local import menu.
+
 <Image
   alt="Local import menu for launchers"
-  src="/mlocalimport.png" 
+  src="/mlocalimport.png"
   width={750}
   height={750}
 />
-You will enter the game name, for the example of this, I am going to use [Slapshot Rebound](https://store.steampowered.com/app/1173370/Slapshot_Rebound/).
+You will enter the game name, for the example of this, I am going to use [Slapshot
+Rebound](https://store.steampowered.com/app/1173370/Slapshot_Rebound/).
 
 `Choose the game's native platform`, choose Windows for this.
 
@@ -88,11 +127,16 @@ For the game's directory, click `Browse` and it should have saved where we were 
 
 Then press `Done` when you're back in the import menu.
 
-Now you can locate your game in the Mythic library and it will play seamlessly (unless it's incompatible). 
+Now you can locate your game in the Mythic library and it will play seamlessly (unless it's incompatible).
+
 <Image
   alt="Info for SteamGridDB"
-  src="/steamdbgridinfo.png" 
+  src="/steamdbgridinfo.png"
   width={750}
   height={750}
 />
-***Note: Games that use Steam Cloud will need to be opened using the Steam app itself. You can find out whether or not your game has this feature on [here](https://steamdb.info) and you can search up your game and look under the player count for a cloud icon, this means that the game you want to play has Steam Cloud which means it cannot be imported into Mythic.***
+***Note: Games that use Steam Cloud will need to be opened using the Steam app itself.
+You can find out whether or not your game has this feature on [here](https://steamdb.info)
+and you can search up your game and look under the player count for a cloud icon,
+this means that the game you want to play has Steam Cloud which means it cannot be
+imported into Mythic.***
