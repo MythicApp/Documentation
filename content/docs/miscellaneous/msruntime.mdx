@@ -1,6 +1,9 @@
 ---
 title: Missing C++ Runtime
 ---
+
+import Image from 'next/image'
+
 # Video Guide
 <div style={{ position: "relative", paddingBottom: "56.25%", height: "0", overflow: "hidden", maxWidth: "100%", height: "auto" }}>
     <iframe style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }} src="https://www.youtube.com/embed/AEhH0Zj8Lyk" title="How to fix &#39;Microsoft Visual C++ Runtime is missing&#39; error on games in Mythic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -8,8 +11,13 @@ title: Missing C++ Runtime
 
 ---
 # Text Guide
-<img src="https://cdn.discordapp.com/attachments/1242922485075415111/1242922485305839747/Snimka_obrazovky_2024-05-22_o_21.01.10.png?ex=66792084&is=6677cf04&hm=1781674f839d5be2f6954a17d1a8b5302f74b2b39f0d6824590b4fe9e50b6ea6&" />
-C++ Runtimes are important for some games because some of them depend on dependencies inside of the runtime, this error will appear when these dependencies aren't installed.
+<Image
+  alt="C++ Runtime Required for game to run"
+  src="/c++runtimerror.png" 
+  width={450}
+  height={450}
+/>
+C++ Runtimes are important for some games because some of them need the dependencies that the runtime includes, this error will appear when these dependencies aren't installed.
 
 ## Installing the required .exe
 To install these runtimes, press this [link](https://aka.ms/vs/17/release/vc_redist.x64.exe), this will install the .exe we will import into Mythic.
@@ -17,6 +25,14 @@ To install these runtimes, press this [link](https://aka.ms/vs/17/release/vc_red
 When the .exe is finished installing, open the Mythic library and press the `+` in the top right. Then press `Local` at the top.
 
 ## Importing the .exe
+<Image
+  alt="Local import menu for launchers"
+  src="/mlocalimport.png" 
+  width={750}
+  height={750}
+/>
+Press the `+` next to the search bar then press Local to start importing locally.
+
 For the native platform, press `Windows` and then name it whatever and a thumbnail URL isn't needed.
 
 For the game location, press `Browse` and open the `vc_redist.x64.exe` and then press `Done` in the import menu.
