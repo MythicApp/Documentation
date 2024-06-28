@@ -12,7 +12,7 @@
   [![Discord](https://img.shields.io/discord/1154998702650425397?color=5865F2)](https://discord.com/invite/58NZ7fFqPy)
 </h1>
 
-Mythic's open-source website backend.
+Mythic's open-source documentation backend.
 
 <sub>This is a Next.js application generated with <a href="https://github.com/fuma-nama/fumadocs">Fumadocs</a>.</sub>
 
