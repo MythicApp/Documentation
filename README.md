@@ -1,9 +1,19 @@
-# Mythic Documentation 
-# <img alt='mythic logo' src='https://i.imgur.com/mE16gDj.png' height=100 weight=100>
+<h1 align="center">
+  <br>
+  <a href="https://getmythic.app">
+    <img src="https://github.com/MythicApp/Mythic/assets/41133734/55df5b7d-f40f-4048-a5d9-e3746d92e138" 
+      style="width: 20%; height: 20%;">
+  </a>
 
-Need help with Mythic? Use the [docs](https://docs.getmythic.app)!
+  Documentation
+  <br>
+  <sub><sub><sub>Part of <a href="https://getmythic.app">Mythic.</a></sub></sub></sub>
 
-This is a Next.js application generated with
-[Fumadocs](https://github.com/fuma-nama/fumadocs).
+  [![Discord](https://img.shields.io/discord/1154998702650425397?color=5865F2)](https://discord.com/invite/58NZ7fFqPy)
+</h1>
+
+Mythic's open-source website backend.
+
+<sub>This is a Next.js application generated with <a href="https://github.com/fuma-nama/fumadocs">Fumadocs</a>.</sub>
 
 ###### Self-hosted.
