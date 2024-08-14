@@ -4,7 +4,7 @@ import { type BaseLayoutProps } from 'fumadocs-ui/layout';
 export const baseOptions: BaseLayoutProps = {
   githubUrl: 'https://github.com/mythicapp/',
   nav: {
-    title: 'Mythic',
+    title: 'Mythic Documentation',
   },
   links: [
     {
