@@ -15,5 +15,3 @@
 Mythic's open-source documentation backend.
 
 <sub>This is a Next.js application generated with <a href="https://github.com/fuma-nama/fumadocs">Fumadocs</a>.</sub>
-
-###### Self-hosted.
